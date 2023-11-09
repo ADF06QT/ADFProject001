@@ -1,0 +1,7 @@
+{
+	"name": "RamSelfhostedIR",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Self Hosted Integration Runtime created by Ram"
+	}
+}

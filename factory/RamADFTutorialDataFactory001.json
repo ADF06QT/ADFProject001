@@ -1,0 +1,9 @@
+{
+	"name": "RamADFTutorialDataFactory001",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2cc24fd6-a05c-4152-b962-027bfc28db16",
+		"tenantId": "e5fcdc43-f0f3-4cef-b475-5c51fa004c36"
+	}
+}

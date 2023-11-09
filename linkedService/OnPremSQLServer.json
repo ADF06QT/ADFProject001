@@ -1,0 +1,17 @@
+{
+	"name": "OnPremSQLServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Connecting On Premises SQL Server",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=AKUL-VINI-PC\\SQLDEV2023;initial catalog=QT_Prac;user id=adf06",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxMjYyOGEzYi1lNDdjLTQ0ZGQtOTg0ZC1mODI3M2ZhYTc4ZDciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "RamSelfhostedIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
